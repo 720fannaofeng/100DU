@@ -1,0 +1,82 @@
+html,
+body {
+  position: relative;
+  height: 100%;
+}
+
+body {
+  background: #eee;
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  color: #000;
+  margin: 0;
+  padding: 0;
+}
+.container{
+    width: 1366px;
+    height: 2415px;
+}
+.nav{
+    width:960px ;
+    height: 32px;
+    margin: 0 auto;
+}
+.nav-1{
+    width: 100%;
+    height: 30px;
+}
+.nav-2{
+    width: 300px;
+    height: 30px;
+    display: flex;
+    margin-left: 20px; 
+}
+.nav-3{
+    width:140px ;
+    height: 30px;
+    float: right;
+
+}
+.logo{
+    width: 100%;
+    height: 80px;
+}
+.logo-1{
+    width: 324px;
+height: 64px;
+}
+.logo-2{
+    width:311px;
+    height: 64px;
+}
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+
+  /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
