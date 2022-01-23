@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>100度</title>
-
+    <link rel="stylesheet" href="http://at.alicdn.com/t/font_3158188_z8njo2umn9.css">
     <link rel="stylesheet" href="https://lib.baomitu.com/Swiper/7.0.0-alpha.31/swiper-bundle.min.css">
     <script src="https://lib.baomitu.com/Swiper/7.0.0-alpha.31/swiper-bundle.min.js">
     </script>
@@ -93,22 +93,29 @@
                 </div>
                 <!-- <div class="search"> -->
                 <div class="layui-tab layui-tab-card" id="layui-tab">
-                    <ul class="layui-tab-title">
-                        <li class="layui-this">搜店</li>
-                        <li>地址</li>
-                        <li>优惠券</li>
-                        <li>全文</li>
-                        <li>视频</li>
-                    </ul>
+                    <div class="zline">
+                        <ul class="layui-tab-title" id="soudianli">
+                            <li class="layui-this">搜店</li>
+                            <li>地址</li>
+                            <li>优惠券</li>
+                            <li>全文</li>
+                            <li>视频</li>
+                        </ul>
+                     <div class="boxline">
+                       
 
-                    <div class="tab-1">
-                        <img src="./imgs/bianqian.png" alt="##" class="imgs1">
-                        <span><input type="text" id="inp1"> <button class="btn1">搜索</button>
-                        </span>
-                        <div class="sp">
-                            <span class="sp1">金钱豹、大江南、湘水之珠、德瑀楼 荷棠鱼坊烤鱼、SOHO尚都、湘味楼...</span>
+                        <div class="tab-1">
+                            <img src="./imgs/bianqian.png" alt="##" class="imgs1">
+                            <span><input type="text" id="inp1" placeholder="随便吃随便喝"> <button class="btn1"><span
+                                        class="iconfont icon-sousuo"></span> 搜索</button>
+                            </span>
+                            <div class="sp">
+                                <span class="sp1">金钱豹、大江南、湘水之珠、德瑀楼 荷棠鱼坊烤鱼、SOHO尚都、湘味楼...</span>
+                            </div>
                         </div>
                     </div>
+                    </div>
+                 
                     <div class="src-box">
                         <img src="./imgs/100度_48.png" alt="" class="update">
                         <div class="botm">
@@ -144,7 +151,7 @@
                                 <img src="./imgs/100度_53.png" alt="">
                                 <video width="350px" height="320px" poster="./imgs/100度_60.png" controls>
                                     <source src="https://www.w3school.com.cn/i/movie.mp4" type="video/mp4">
-                                    
+
                                 </video>
                                 <div>
                                     <img src="./imgs/100度_73.png" alt="" class="imgs2">
@@ -156,8 +163,9 @@
                             <!-- 左2 -->
                             <div class="layui-tab layui-tab-brief" lay-filter="docDemoTabBrief">
                                 <ul class="layui-tab-title">
-                                    <li class="layui-this">HOT SHOP 红店铺</li>
-                                    <li id="EWshop">EW SHOP 新开张</li>
+                                    <li class="layui-this">HOT SHOP 红店铺 <span class="iconfont icon-daosanjiao1"></span>
+                                    </li>
+                                    <li id="EWshop">EW SHOP 新开张<span class="iconfont icon-daosanjiao1"></span></li>
                                 </ul>
                                 <div class="layui-tab-content" style="height: 370px;padding-bottom: 0px;">
                                     <div class="layui-tab-item layui-show" id="jiudian">
@@ -244,8 +252,8 @@
                             <div class="subway">
                                 <div class="layui-tab">
                                     <ul class="layui-tab-title">
-                                        <li class="layui-this">subway地铁</li>
-                                        <li class="map">map生活圈</li>
+                                        <li class="layui-this">subway地铁 <span class="iconfont icon-daosanjiao1"></span></li>
+                                        <li class="map">map生活圈<span class="iconfont icon-daosanjiao1"></span></li>
 
                                     </ul>
                                     <div class="layui-tab-content" id="tab-1">
@@ -265,11 +273,11 @@
                                                     </div>
                                                 </div>
                                                 <ul class="layui-tab-title" id="line">
-                                                    <li class="layui-this" >1号线</li>
-                                                    <li >2号线</li>
-                                                    <li >3号线</li>
-                                                    <li >4号线</li>
-                                                    <li >5号线</li>
+                                                    <li class="layui-this libg1" >1号线</li>
+                                                    <li class="libg2">2号线</li>
+                                                    <li class="libg3">3号线</li>
+                                                    <li class="libg4">4号线</li>
+                                                    <li class="libg5">5号线</li>
                                                 </ul>
                                             </div>
                                         </div>
@@ -285,7 +293,7 @@
                                             src="./imgs/more.png" alt=""></span></div>
 
                                 <div class="bbs-news">
-
+                                    <img src="./imgs/100度_119.png" alt="" class="bbs-img">
                                     <ul id="bbsul">
 
                                     </ul>
@@ -305,9 +313,9 @@
                                 </div>
                                 <div class="layui-tab">
                                     <ul class="layui-tab-title">
-                                        <li class="layui-this">有人在问</li>
-                                        <li>有人知道</li>
-                                        <li>热门问题</li>
+                                        <li class="layui-this">有人在问<span class="iconfont icon-daosanjiao1"></span></li>
+                                        <li>有人知道 <span class="iconfont icon-daosanjiao1"></span></li>
+                                        <li>热门问题 <span class="iconfont icon-daosanjiao1"></span></li>
 
                                     </ul>
                                     <div class="layui-tab-content">
@@ -444,9 +452,9 @@
                                 </div>
                                 <div class="layui-tab">
                                     <ul class="layui-tab-title">
-                                        <li class="layui-this">人气</li>
-                                        <li>推荐</li>
-                                        <li>最新</li>
+                                        <li class="layui-this">人气 <span class="iconfont icon-daosanjiao1"></span></li>
+                                        <li>推荐<span class="iconfont icon-daosanjiao1"></span></li>
+                                        <li>最新<span class="iconfont icon-daosanjiao1"></span></li>
 
                                     </ul>
                                     <div class="layui-tab-content">
@@ -567,14 +575,14 @@
 
 
         </div>
-        
-       
-           
-            
-        
+
+
+
+
+
     </div>
-   
-    
+
+
 </body>
 
 <script src="./tools.js"></script>

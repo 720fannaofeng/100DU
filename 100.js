@@ -314,6 +314,21 @@ addEvent(window, 'load', function () {
         console.log(aaa);
     }
 })
+// /* 地铁 */
+var subwaycol = ["red", "blue", "yellow", "grey", "purple"]
+var line = document.querySelector("#line")
+var oli = line.getElementsByTagName('li');
+for (var i = 0; i < oli.length; i++) {
+    oli[i].index=i;
+    oli[i].onclick = function () {
+      
+        for (var j = 0; j < oli.length; j++) {
+            oli[j].style.backgroundColor = "";
+        }
+        this.style.backgroundColor = subwaycol[this.index];
+      
+    }
+}
 
 /* bbs论坛 */
 addEvent(window, 'load', function () {
@@ -329,17 +344,7 @@ addEvent(window, 'load', function () {
             <span class="bbs-wei">`+ responul[2].bbstime[i] + `</span>
     </li>`
         }
-        /* 文字mouseover效果 */
-        var oLi = bbsul.getElementsByTagName('li');
-        for (var i = 0; i < oLi.length; i++) {
-            oLi[i].onmouseover = function () {
-                for (var j = 0; j < oLi.length; j++) {
-                    oLi[j].className = ''
-                }
-                this.className = 'bbsactive';
 
-            }
-        }
     }
 
     function err(aaa) {
@@ -553,7 +558,7 @@ addEvent(window, 'load', function () {
         var parent = document.getElementById('parent');
         var zhekou1 = document.getElementById('zhekou1');
         var zhekou2 = document.getElementById('zhekou2');
-        console.log(zhekou1.innerHTML);
+        // console.log(zhekou1.innerHTML);
         zhekou2.innerHTML = zhekou1.innerHTML;
 
         var timer = setInterval(function () {
