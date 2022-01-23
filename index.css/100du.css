@@ -163,11 +163,12 @@ z-index: 9;
   left: 0;
   width: 960px;
   height: 100px;
+ 
   border: 1px solid #e6e6e6;
   border-radius: 10px;
   z-index: 1;
 }
-.layui-tab-title li{
+ .layui-tab-title li{
   /* display: block; */
   width: 90px;
   height: 23px;
@@ -175,9 +176,13 @@ z-index: 9;
   border: 1px solid #DEDEDE;
   border-radius: 5px;
   overflow: hidden;
-  border-bottom: 0px;
+ 
   background: rgba(247, 244, 244, 1);
 }
+#soudianli .oli1{
+  border-bottom: none;
+}
+
 .layui-tab-card>.layui-tab-title{
   
   background: none;
@@ -643,22 +648,7 @@ display: inline-block;
     font-weight: bold;
     background: none;
   }
- .libg:nth-child(1) .layui-this{
-
- background: red;
-
-}
-.libg:nth-child(2) .layui-this{
- background: blue; 
-}
-.libg:nth-child(3) .layui-this{
- background: yellow;
-} .libg:nth-child(4) .layui-this{
- background: grey;
-}
- .libg:nth-child(5) .layui-this{
- background:purple;
-}
+ 
 
 #tab-1 .layui-show{
   width: 350px;
@@ -681,6 +671,7 @@ display: inline-block;
 #tab-1 .layui-tab-title li{
   min-width:  30px;
   width: 30px;
+  
 }
 #line li:nth-child(1){
   border-color: #e21c01;
